@@ -1,14 +1,13 @@
-# ShinyVaccine
+# Shiny SIR-Vaccine
 
-Shiny app to show the SIR model with an additional vaccine compartment
+This is a Shiny app to illustrate the SIR-Vaccine model.
 
-You can run the **English** language version locally on your computer with 
+The SIR (Susceptible-Infected-Removed) model consists of a system of three coupled non-linear ordinary differential equations. 
+A vaccine sends some Susceptible directly to the Recovered (immune) state. 
+Shiny apps help us create an interactive web application for this model.
 
-```{r}
-shiny::runGitHub("ekstroem/Shiny-Vaccine")
-```
-
-it requires that you have the following packages installed:
+ 
+To run this App, the following packages need to be installed:
 
 ```{r}
 library("shiny")
